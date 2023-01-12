@@ -9,6 +9,7 @@ function setup() {
 }
 
 function draw() {
+  circle(mouseX, mouseY, 20);
   for(let i = 0; i < nPelotas; i++) {
     pelotas[i].update();
     pelotas[i].display();
